@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    width: 80vw;
+    width: 70vw;
     height: 100vh;
     margin: 0 auto;
 }
@@ -26,6 +26,7 @@ header {
     margin-bottom: 10px;
     margin-top: 30px;
     position: relative;
+    text-align: center;
 }
 
 header img {
@@ -46,9 +47,45 @@ header img {
     background-color: rgba(0,0,0,0.5);
 }
 
+h1 {
+    font-family: "Muli";
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    border: 3px solid white;
+    padding: 5px;
+}
+
+header p {
+    font-family: "Muli";
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 69%;
+}
+
 nav {
     height: 30px;
     background-color: grey;
+}
+
+nav span {
+    font-family: "Muli";
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    line-height: 30px;
+}
+
+nav span:hover {
+    cursor: pointer;
+    background-color: darkgray;
 }
 
 .row {
