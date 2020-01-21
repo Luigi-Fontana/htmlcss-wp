@@ -88,10 +88,6 @@ nav span:hover {
     background-color: darkgray;
 }
 
-.row {
-    height: 500px;
-}
-
 aside {
     width: 25%;
     height: 100%;
@@ -99,8 +95,27 @@ aside {
 }
 
 aside .content {
-    height: 100%;
     background-color: white;
+    padding: 10px;
+}
+
+aside i {
+    font-size: 25px;
+    color: orange;
+    margin: 10px;
+    float:left;
+}
+
+aside p {
+    font-family: "Muli";
+    font-size: 15px;
+    color: darkgreen;
+    margin: 10px 0;
+}
+
+aside p:hover {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 main {
@@ -111,8 +126,27 @@ main {
 }
 
 main .content {
-    height: 100%;
     background-color: white;
+    padding: 10px;
+}
+
+main p {
+    font-family: "Muli";
+    font-size: 15px;
+}
+
+h2 {
+    font-family: "Muli";
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: "Muli";
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 footer {
