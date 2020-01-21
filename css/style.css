@@ -83,7 +83,6 @@ header p {
 }
 
 nav {
-    height: 30px;
     background-color: grey;
 }
 
@@ -94,7 +93,8 @@ nav a {
     text-decoration: none;
     color: white;
     padding: 8px;
-    line-height: 30px;
+    line-height: 20px;
+    display: inline-block;
 }
 
 nav a:hover {
@@ -122,6 +122,11 @@ aside i {
     color: orange;
     margin: 10px;
     float:left;
+}
+
+aside i:hover {
+    color: red;
+    cursor: pointer;
 }
 
 aside p {
