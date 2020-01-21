@@ -78,16 +78,17 @@ nav {
     background-color: grey;
 }
 
-nav span {
+nav a {
     font-family: "Muli";
     font-size: 10px;
     font-weight: bold;
+    text-decoration: none;
     color: white;
     padding: 8px;
     line-height: 30px;
 }
 
-nav span:hover {
+nav a:hover {
     cursor: pointer;
     background-color: darkgray;
 }
@@ -119,13 +120,17 @@ aside p {
     font-size: 15px;
 }
 
-aside:first-of-type p {
+aside a {
+    font-family: "Muli";
+    font-size: 15px;
+    text-decoration: none;
     color: darkgreen;
-    margin: 10px 0;
+    display: inline-block;
+    margin: 5px 0;
 }
 
-aside p:hover {
-    font-weight: bold;
+.left a:hover {
+    color: mediumseagreen;
     cursor: pointer;
 }
 
@@ -223,7 +228,7 @@ footer {
 
 .fa-facebook-square:hover {
     cursor: pointer;
-    color: darkblue;
+    color: blue;
 }
 
 .fa-instagram:hover {
