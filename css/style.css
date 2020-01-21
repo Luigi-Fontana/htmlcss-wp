@@ -51,6 +51,15 @@ header img {
     background-color: rgba(0,0,0,0.5);
 }
 
+.index i {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+}
+
 h1 {
     font-family: "Muli";
     font-size: 40px;
