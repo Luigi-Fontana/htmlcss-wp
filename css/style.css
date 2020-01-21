@@ -220,3 +220,18 @@ footer {
     font-size: 30px;
     color: gray;
 }
+
+.fa-facebook-square:hover {
+    cursor: pointer;
+    color: darkblue;
+}
+
+.fa-instagram:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.fa-github:hover {
+    cursor: pointer;
+    color: green;
+}
